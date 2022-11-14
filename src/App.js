@@ -19,7 +19,8 @@ export default function App() {
       </div>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/page1" element={<Page1 />}>
+        <Route path="page1">
+          <Route path="/page1" element={<Page1 />} />
           <Route path="detailA" element={<Page1DetailA />} />
           <Route path="detailB" element={<Page1DetailB />} />
         </Route>
