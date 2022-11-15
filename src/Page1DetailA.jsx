@@ -1,10 +1,12 @@
-import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 export const Page1DetailA = () => {
+  const location = useLocation();
+  console.log(location);
+
   return (
     <div>
       <h1>Page1DetailAページです</h1>
-      <Link to="/page1/detailB">DetailB</Link>
     </div>
   );
 };
