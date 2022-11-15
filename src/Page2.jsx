@@ -6,7 +6,7 @@ export const Page2 = () => {
       <h1>Page2ページです</h1>
       <Link to="/page2/100">URL Parameter</Link>
       <br />
-      <Link to="/page2/?name=hogehoge">Query Parameter</Link>
+      <Link to="/page2/999?name=hogehoge">Query Parameter</Link>
     </div>
   );
 };
